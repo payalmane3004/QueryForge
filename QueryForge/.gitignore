@@ -3,9 +3,13 @@
 *.o
 *.out
 
-# IDE and editor files
-.vscode/
+# Build directories
+build/
+cmake-build-*/
 
-# Operating system files
-.DS_Store
-Thumbs.db
+# IDE settings
+.vscode/
+.idea/
+
+# Log files
+*.log
